@@ -6,7 +6,7 @@ import { CalendarDays } from "lucide-react";
 
 const Header = () => {
 	return (
-		<header className="w-full border-b bg-white sticky top-0">
+		<header className="w-full border-b bg-white sticky top-0 z-50">
 			<div className="mx-auto flex items-center justify-between px-6 py-4">
 				{/* Left: Logo */}
 				<div className="flex items-center gap-2">
